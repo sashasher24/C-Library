@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-char *mx_strnew(const int size);
-
 int lenHelper(int x) {
 
     int ct = 0;

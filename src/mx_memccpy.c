@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-void *mx_memset(void *b, int c, size_t len);
-
 void *mx_memccpy(void *restrict dst, const void *restrict src, int c, size_t n) {
     char *dstn = (char *)dst;
     char *srcn = (char *)src;

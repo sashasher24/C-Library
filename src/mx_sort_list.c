@@ -1,11 +1,10 @@
 #include "libmx.h"
 
-t_list *mx_create_node(void *data);
 
-bool comp(void* a, void* b) {
-    if(a > b) return true;
-    else return false;
-}
+//bool comp(void* a, void* b) {
+//    if(a > b) return true;
+//    else return false;
+//}
 
 t_list *mx_sort_list(t_list *lst, bool(*cmp)(void*, void*)) {
     t_list *tmp;
@@ -25,14 +24,6 @@ t_list *mx_sort_list(t_list *lst, bool(*cmp)(void*, void*)) {
     return lst;
 }
 
-//void printlist(t_list *head) {
-//    t_list *tmp = head;
-//    while (tmp != NULL) {
-//        printf("%s ", tmp->data);
-//        tmp = tmp->next;
-//    }
-//}
-//
 //int main()
 //{
 //    t_list *temp;
@@ -47,7 +38,7 @@ t_list *mx_sort_list(t_list *lst, bool(*cmp)(void*, void*)) {
 //    temp->next = head;
 //    head = temp;
 //
-//    printlist(head);
+//    mx_printlist(head);
 //
 //    mx_sort_list(head, comp);
 //

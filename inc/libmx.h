@@ -66,6 +66,15 @@ void mx_pop_front(t_list **head);
 void mx_pop_back(t_list **head);
 int mx_list_size(t_list *list);
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
+bool mx_isspace(char c);
+double mx_pow(double n, unsigned int pow);
+void mx_sort_arr_int(int *arr, int size);
+int mx_factorial_iter(int n);
+int mx_atoi(const char *str);
+bool mx_isdigit(int c);
+void mx_push_index(t_list **list, void *data,int index);
+int *mx_copy_int_arr(const int *src, int size);
+void mx_printlist(t_list *head);
 
 #endif
 

@@ -1,6 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen( const char *s);
 int mx_count_words(const char *str, char c){
 
     if(str == NULL){

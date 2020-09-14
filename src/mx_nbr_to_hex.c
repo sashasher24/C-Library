@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-char *mx_strnew(const int size);
-
 char *mx_nbr_to_hex(unsigned long nbr) {
     char temp[50];
     int i = 0;

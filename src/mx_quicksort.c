@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen( const char *s);
-
 int count = 0;
 
 int partition(char **arr, int left, int right) {

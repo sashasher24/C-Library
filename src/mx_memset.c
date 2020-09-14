@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-char *mx_strcpy(char *dst, const char *src);
-
 void *mx_memset(void *b, int c, size_t len) {
     unsigned char cc = c;
     unsigned char *bb = b;

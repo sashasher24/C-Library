@@ -7,10 +7,7 @@ unsigned long mx_hex_to_nbr(const char *hex) {
     for (int i = 0; hex[i] != '\0'; i++) {
         count++;
     }
-//    while (*hex != '\0') {
-//        count++;
-//        hex++;
-//    }
+
     int pos = count - 1;
     for (int i = 0; hex[i] != '\0'; i++) {
 //        pos = count;

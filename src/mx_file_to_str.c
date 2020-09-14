@@ -1,7 +1,5 @@
 #include "libmx.h"
 
-char *mx_strnew(const int size);
-
 char *mx_file_to_str(const char *file) {
     char ch;
     int size = 0;

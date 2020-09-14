@@ -1,8 +1,5 @@
 #include "libmx.h"
 
-char*mx_strndup(const char *s1, size_t n);
-int mx_strlen( const char *s);
-
 char **mx_strsplit(const char *s, char c) {
 
     if(!c){
@@ -42,7 +39,6 @@ char **mx_strsplit(const char *s, char c) {
     }
 
     mx_strndup(*s_new, k * sizeof(char *));
-    free(*s_new);
 
     return s_new;
 }

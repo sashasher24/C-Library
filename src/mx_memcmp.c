@@ -1,8 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen( const char *s);
-void *mx_memcpy(void *restrict dst, const void *restrict src, size_t n);
-
 int mx_memcmp(const void *s1, const void *s2, size_t n){
     int i = 0;
     unsigned char *s1n = (unsigned char *)s1;

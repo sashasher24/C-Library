@@ -1,9 +1,5 @@
 #include "libmx.h"
 
-char *mx_strtrim(const char *str);
-bool mx_isspace(char c);
-int mx_strlen( const char *s);
-
 char *mx_del_extra_spaces(const char *str) {
     int j;
     int ii;

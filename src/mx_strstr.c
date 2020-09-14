@@ -1,8 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen(const char *s);
-char *mx_strdup(const char *str);
-
 char *mx_strstr(const char *haystack, const char *needle) {
     int i = 0;
     char *hay = mx_strdup(haystack);

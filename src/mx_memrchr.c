@@ -1,10 +1,7 @@
 #include "libmx.h"
 
-int mx_strlen( const char *s);
-
 void *mx_memrchr(const void *s, int c, size_t n) {
     const char *sn = (const char *)s;
-//    unsigned char *cn = (unsigned char *)c;
     int size = mx_strlen(sn);
     int i = size - 1;
 

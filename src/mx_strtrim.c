@@ -1,9 +1,5 @@
 #include "libmx.h"
 
-int mx_strlen( const char *s);
-bool mx_isspace(char c);
-
-
 char *mx_strtrim(const char *str) {
     int i = 0;
     char *s = (char *)malloc(mx_strlen(str));
@@ -19,7 +15,7 @@ char *mx_strtrim(const char *str) {
 
     i = mx_strlen(str) - 1;
 
-    while(mx_isspace(str[i])) {                // hhffjjffllffjjdd
+    while(mx_isspace(str[i])) {
         i--;
     }
     if(i < mx_strlen(str) - 1) {
